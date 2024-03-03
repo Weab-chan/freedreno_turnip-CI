@@ -148,12 +148,12 @@ port_lib_for_magisk(){
 	cat <<EOF >"meta.json"
 {
   "schemaVersion": 1,
-  "name": "Turnip - $date - $commit_short",
-  "description": "$mesa_version - $commit_short",
+  "name": "Mesa Turnip - $date - $commit_short",
+  "description": "Vulkan $vulkan_version",
   "author": "mesa",
   "packageVersion": "1",
   "vendor": "Mesa",
-  "driverVersion": "Vulkan $vulkan_version",
+  "driverVersion": "$mesa_version",
   "minApi": 27,
   "libraryName": "vulkan.ad07XX.so"
 }
