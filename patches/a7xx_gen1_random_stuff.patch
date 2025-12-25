@@ -1,0 +1,13 @@
+diff --git a/src/freedreno/common/freedreno_devices.py b/src/freedreno/common/freedreno_devices.py
+index a2637b0..3bb48ca 100644
+--- a/src/freedreno/common/freedreno_devices.py
++++ b/src/freedreno/common/freedreno_devices.py
+@@ -996,6 +996,8 @@ a7xx_gen1 = GPUProps(
+         enable_tp_ubwc_flag_hint = True,
+         reading_shading_rate_requires_smask_quirk = True,
+         cs_lock_unlock_quirk = True,
++        has_early_preamble = False,
++        has_scalar_predicates = False,
+     )
+ 
+ a7xx_gen2 = GPUProps(
